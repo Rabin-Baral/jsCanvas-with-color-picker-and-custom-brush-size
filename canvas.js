@@ -10,6 +10,7 @@ window.addEventListener('load', ()=>{
     //variables : mouse actions as variables
     let painting = false
 
+    //functions for drawing
     function startPainting(e){   //if you start(click the mosue) painting set painting - true
         painting = true
         draw(e)     //draw dot(.) if we just click the mouse button
@@ -20,6 +21,7 @@ window.addEventListener('load', ()=>{
         context.beginPath() //resetting the old drawing path and beginning to draw new line(path)
     }
 
+    //actually drawing
     function draw(e){
         if(!painting){return}
         else{
