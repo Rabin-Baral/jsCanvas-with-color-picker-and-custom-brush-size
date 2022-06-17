@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.colorBox{
+    position: fixed;
+    width: 180px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 0 12px #bbb;
+    border-radius: 10px;
+}
+
+#colorPicker{
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    margin: 6px 0;
+    cursor: pointer;
+}
+#myCanvas{
+    border: 2px solid #333;
+}
